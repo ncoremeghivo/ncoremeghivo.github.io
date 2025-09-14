@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://ncoremeghivo.org/</loc>
+    <lastmod>2025-07-06</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Anchor Sections -->
+  <url>
+    <loc>https://ncoremeghivo.org/#letoltes</loc>
+    <lastmod>2025-07-06</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ncoremeghivo.org/#feltoltes</loc>
+    <lastmod>2025-07-06</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ncoremeghivo.org/#keresek</loc>
+    <lastmod>2025-07-06</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ncoremeghivo.org/#ajanlo</loc>
+    <lastmod>2025-07-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ncoremeghivo.org/#forum</loc>
+    <lastmod>2025-07-06</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ncoremeghivo.org/#wiki</loc>
+    <lastmod>2025-07-06</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ncoremeghivo.org/#felhasznalok</loc>
+    <lastmod>2025-07-06</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ncoremeghivo.org/#helpdesk</loc>
+    <lastmod>2025-07-06</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ncoremeghivo.org/#gyik</loc>
+    <lastmod>2025-07-06</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://ncoremeghivo.org/#contact</loc>
+    <lastmod>2025-07-06</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
