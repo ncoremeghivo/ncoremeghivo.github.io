@@ -1,42 +1,26 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
+    <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>nCore Meghívók - Gyors és Biztonságos</title>
-        <meta name="description" content="Valódi, működő nCore meghívók megbízható forrásból. Fizetés után azonnali hozzáférés 2026-ban is.">
+        <title>nCore Meghívók</title>
         <link rel="icon" type="image/x-icon" href="img/favico.ico">
-
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://ncoremeghivo.org">
-        <meta property="og:title" content="nCore Meghívók - Azonnali belépés">
-        <meta property="og:description" content="Valódi, működő nCore meghívók megbízható forrásból. Fizetés után azonnali hozzáférés.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="nCore Meghívók">
+        <meta property="og:description" content="Valódi, működő nCore meghívók megbízható forrásból. Azonnali hozzáférés.">
         <meta property="og:image" content="https://ncoremeghivo.org/img/preview.jpg">
-        <meta property="og:image:secure_url" content="https://ncoremeghivo.org/img/preview.jpg">
-        <meta property="og:image:type" content="image/jpeg">
-        <meta property="og:image:width" content="1200">
-        <meta property="og:image:height" content="630">
-        <meta property="og:site_name" content="nCore Meghívók">
+        <meta property="og:url" content="https://ncoremeghivo.org">
+        <meta property="og:type" content="website">
 
+        <!-- Twitter -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:url" content="https://ncoremeghivo.org">
-        <meta name="twitter:title" content="nCore Meghívók - Azonnali belépés">
-        <meta name="twitter:description" content="Valódi, működő nCore meghívók megbízható forrásból.">
-        <meta name="twitter:image" content="https://ncoremeghivo.org/img/preview.jpg">
+        <meta name="twitter:image" content="https://ncoremeghivo.org/img/og-preview.jpg">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-    </head>
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://ncoremeghivo.org/img/og-preview.jpg">
-
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
+        <!-- Stripe Buy Button JS -->
+        <script async src="https://js.stripe.com/v3/buy-button.js"></script>
 
     </head>
     <body>
@@ -48,8 +32,6 @@
                 </a>
             </div>
         </nav>
-
-
 
         <section class="hero">
             <div class="container">
@@ -85,7 +67,7 @@
                             <i class="bi bi-stopwatch icon-xl mb-3"></i>
                             <h3 class="h5">Azonnali hozzáférés</h3>
                             <p class="text-secondary">
-                                Ne pazarold az idődet várólistákra. A sikeres fizetés után (Revolut, PayPal vagy  banki utalás) azonnal megkapod a meghívó linket, amellyel pillanatok alatt létrehozhatod nCore fiókodat.
+                                Ne pazarold az idődet várólistákra. A sikeres fizetés után (Revolut, PayPal vagy banki utalás) azonnal megkapod a meghívó linket, amellyel pillanatok alatt létrehozhatod nCore fiókodat.
                             </p>
                         </div>
                     </div>
@@ -112,10 +94,15 @@
                             <i class="bi bi-envelope-paper-fill icon-xl mb-3"></i>
                             <h4 class="fw-bold">nCore meghívó</h4>
                             <h2 class="my-3">3500 Ft</h2>
-                            <p class="text-secondary">Azonnali meghívó</p>
-                            <a class="btn btn-primary w-100" href="https://ncoremeghivo.myshopify.com/products/ncore-meghivo">
-                                Tovább a vásárláshoz <img src="img/shopify.svg" alt="Shopify" class="customIcon">
-                            </a>
+                            <p class="text-secondary">Azonnali kód</p>
+                            
+                            <!-- Stripe Buy Button -->
+                            <stripe-buy-button
+                              buy-button-id="buy_btn_1TzFjsHz4IxRnaWQKEH0THWr"
+                              publishable-key="pk_live_51TG2tJHz4IxRnaWQ8RNgtR3xbqkbyFJ1uFKZd9oHJIbCrk1w6z4ode7CVS97seVqPSk4JXHYQmeXcPIWaZZo0bkb00UZbqUKXJ"
+                            >
+                            </stripe-buy-button>
+
                         </div>
                     </div>
                 </div>
@@ -128,28 +115,28 @@
 
         <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mt-4 mb-0 rating-section">
         
-        <div class="current-rating mb-md-0 d-flex align-items-center">
-            
-            <div class="stars me-2">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-half"></i>
+            <div class="current-rating mb-md-0 d-flex align-items-center">
+                
+                <div class="stars me-2">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                </div>
+                <span class="text-secondary small">(129 felhasználó)</span>
             </div>
-            <span class="text-secondary small">(129 felhasználó)</span>
-        </div>
 
-        <div class="user-rating d-flex align-items-center gap-2">
-            <div class="select-stars">
-            <i class="bi bi-star" data-value="1"></i>
-            <i class="bi bi-star" data-value="2"></i>
-            <i class="bi bi-star" data-value="3"></i>
-            <i class="bi bi-star" data-value="4"></i>
-            <i class="bi bi-star" data-value="5"></i>
+            <div class="user-rating d-flex align-items-center gap-2">
+                <div class="select-stars">
+                <i class="bi bi-star" data-value="1"></i>
+                <i class="bi bi-star" data-value="2"></i>
+                <i class="bi bi-star" data-value="3"></i>
+                <i class="bi bi-star" data-value="4"></i>
+                <i class="bi bi-star" data-value="5"></i>
+                </div>
+                <button class="btn btn-sm btn-primary submit-rating">Értékel</button>
             </div>
-            <button class="btn btn-sm btn-primary submit-rating">Értékel</button>
-        </div>
         </div>
 
         <section class="py-4">
@@ -208,5 +195,3 @@
         <script src="script.js"></script>
     </body>
 </html>
-
-
