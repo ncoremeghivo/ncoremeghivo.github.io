@@ -13,13 +13,20 @@ document.addEventListener('DOMContentLoaded', function () {
     selectedRating = 0;
     lastScrollTop = 0;
 
-    function copyToClipboard() {
-        navigator.clipboard.writeText("robincore333@gmail.com")
-        .catch(err => {
-          console.error("Failed to copy:", err);
+    // Updated copy to clipboard functionality
+    var copyBtn = document.getElementById('copyEmailBtn');
+    
+    if (copyBtn) {
+        copyBtn.addEventListener('click', function() {
+            navigator.clipboard.writeText("info@ncoremeghivo.org")
+            .then(() => {
+                alert("E-mail cím másolva!");
+            })
+            .catch(err => {
+                console.error("Failed to copy:", err);
+            });
         });
     }
-    
     
     function updateStars(limit) {
         for (j = 0; j < stars.length; j++) {
@@ -74,7 +81,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
         lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
     });
-
-    
 
 });
